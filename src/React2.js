@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function React1(){
+export default function React1(props){
     return(
         <div>
-            React 2
+            <h1>{props.match.params.person}</h1>
         </div>
     )
 }
